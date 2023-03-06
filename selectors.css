@@ -1,0 +1,48 @@
+/* p,a{
+    color:green;
+}
+li{
+    list-style-type: none;
+}
+/* .special{
+    color: green;
+} */
+/*
+li.special{
+    color: green;
+}
+li em{
+    color: green ;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+a:visited{
+    color: yellow;
+    text-decoration: dotted;
+}
+body h1+p .special{
+    color: violet;
+}
+#head{
+    color:aqua;
+    background-color: black;
+}
+p#head2{
+    color:aqua;
+    background-color: black;
+}
+/* li[class]{
+    color: rebeccapurple;
+} */
+/*
+li[class~="special"]{
+    color: blue;
+} */
+*{
+    list-style-type: square;
+}
+li{
+    background-size: 50%;
+}

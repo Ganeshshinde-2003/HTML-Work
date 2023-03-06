@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p
+      id="demo"
+      style="text-align: center; font-size: 20px; font-weight: 100"
+    ></p>
+
+    <script>
+      //   var bordersize;
+      //   var err = 0;
+      //   bordersize = prompt(
+      //     "Select a table border size: " +
+      //       "0 (no border), " +
+      //       "1 (1 pixel border), " +
+      //       "4 (4 pixel border), " +
+      //       "8 (8 pixel border), "
+      //   );
+      //   switch (bordersize) {
+      //     case "0":
+      //       document.write("<table>");
+      //       break;
+      //     case "1":
+      //       document.write("<table border = '1'>");
+      //       break;
+      //     case "4":
+      //       document.write("<table border = '4'>");
+      //       break;
+      //     case "8":
+      //       document.write("<table border = '8'>");
+      //       break;
+      //     default: {
+      //       document.write("Error - invalid choice: ", bordersize, "<br />");
+      //       err = 1;
+      //     }
+      //   }
+      //   if (err == 0) {
+      //     document.write("<caption> 2012 NFL Divisional", " Winners </caption>");
+      //     document.write(
+      //       "<tr>",
+      //       "<th> <th/>",
+      //       "<th> American Conference </th>",
+      //       "<th> National Conference </th>",
+      //       "</tr>",
+      //       "<tr>",
+      //       "<th> East </th>",
+      //       "<td> New England Patriots </td>",
+      //       "<td> Washington Redskins </td>",
+      //       "</tr>",
+      //       "<tr>",
+      //       "<th> North </th>",
+      //       "<td> Baltimore Ravens </td>",
+      //       "<td> Green Bay Packers </td>",
+      //       "</tr>",
+      //       "<tr>",
+      //       "<th> West </th>",
+      //       "<td> Denver Broncos </td>",
+      //       "<td> San Francisco 49ers </td>",
+      //       "</tr>",
+      //       "<tr>",
+      //       "<th> South </th>",
+      //       "<td> Houston Texans </td>",
+      //       "<td> Atlanta Falcons </td>",
+      //       "</tr>",
+      //       "</table>"
+      //     );
+      //   }
+      // Get the current date
+      //   var today = new Date();
+      //   // Fetch the various parts of the date
+      //   var dateString = today.toLocaleString();
+      //   var day = today.getDay();
+      //   var month = today.getMonth();
+      //   var year = today.getFullYear();
+      //   var timeMilliseconds = today.getTime();
+      //   var hour = today.getHours();
+      //   var minute = today.getMinutes();
+      //   var second = today.getSeconds();
+      //   var millisecond = today.getMilliseconds();
+      //   // Display the parts
+      //   document.write(
+      //     "Date: " + dateString + "<br />",
+      //     "Day: " + day + "<br />",
+      //     "Month: " + month + "<br />",
+      //     "Year: " + year + "<br />",
+      //     "Time in milliseconds: " + timeMilliseconds + "<br />",
+      //     "Hour: " + hour + "<br />",
+      //     "Minute: " + minute + "<br />",
+      //     "Second: " + second + "<br />",
+      //     "Millisecond: " + millisecond + "<br />"
+      //   );
+      //   // Time a loop
+      //   var dum1 = 1.00149265,
+      //     product = 1;
+      //   var start = new Date();
+      //   for (var count = 0; count < 10000; count++)
+      //     product = product + (1.000002 * dum1) / 1.00001;
+      //   var end = new Date();
+      //   var diff = end.getTime() - start.getTime();
+      //   document.write("<br />The loop took " + diff + " milliseconds <br />");
+      // var car = new Object();
+      // car.type = "maruthi";
+      // car.speed = "500";
+      // car.model = "200suv";
+      // car.color = "RED";
+      // car.engine = new Object();
+      // car.engine.type = "diesel"; //nested property
+      // car.engine.xxx = "llll";
+
+      // // document.getElementById("demo").innerHTML = car["speed"];
+      // // document.getElementById("demo").innerHTML = car.engine.type;
+      // // delete car.engine.xxx;
+      // for (var i in car) {
+      //   //note new for loop
+      //   document.writeln("property is ", i, " ; its value is ", car[i], "<br>");
+      // }
+      var biodata = new Object();
+      biodata.name = "Ganesh";
+      biodata.last = "shinde";
+      biodata.age = 19;
+      biodata.eyecolor = "Black";
+
+      document.getElementById(
+        "demo"
+      ).innerHTML = `${biodata.name} ${biodata.last} is ${biodata.age} years old and His eyes color is ${biodata.eyecolor}`;
+    </script>
+  </body>
+</html>

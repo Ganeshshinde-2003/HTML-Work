@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+.bigg{
+    position: absolute;
+    background-image: url("yelloback.webp");
+    height: 80vh;
+    width: 180vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 10%;
+    left: 6%;
+}
